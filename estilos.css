@@ -1,0 +1,414 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*  --------------------------------------HEADER-------- */
+
+.bloque-logo{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.logo-marca{
+   
+    display: flex;
+    justify-content: flex-start;
+}
+
+.carrito{
+    margin-top: 80px;
+}
+.carrito ul li{
+    list-style-type: none;
+}
+
+.carrito a{
+    justify-items: end;
+}
+
+.buscador-principal{
+    margin: 4rem;
+    width: 1000px;
+    height: 50px;
+    padding: 10px;
+    border: 0.1rem solid rgb(15, 6, 151) ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.buscador-elem{
+    text-decoration: none;
+    font-size:1.5rem;
+    list-style: none;
+  
+
+}
+
+ 
+.header-banner--logo{
+    width: 200px;
+    height: 200px;
+}
+
+
+.header-menu--principal {
+    text-decoration: none;
+padding: 28px;
+list-style: none;
+}
+nav{
+    background-color: rgb(15, 6, 151);
+    height: 10vh;
+    width: 100vw;
+}
+.header-menu--principal {
+  display: flex;
+ justify-content: space-evenly;
+
+}
+
+.header-menu--principal a{
+   text-decoration: none;
+   text-transform: uppercase;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size:1.5rem;
+color:rgb(250, 250, 244);
+  }
+  
+
+    /*  --------------------------------------CONTENIDO---------------------------------- */
+
+    .main-div--imgprincipal{
+    background-image: url(Img/Main.jpg);
+    background-color: rgb(15, 6, 151);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 55vh;
+    width: 100vw;
+    margin: 0.2rem;
+    }
+
+    .main-h2--titulo{
+        font-size: 1rem;
+        color: slategray;
+        padding: 1.rem; 
+        text-transform: uppercase;
+   text-decoration: underline;
+margin: 2rem;
+}
+.produc-destacados{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 50px;
+justify-items: center;  
+}
+    .letras-productos{
+    color: rgb(15, 6, 151);
+    font-size:1rem;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    }
+  
+    .letras-precios{
+        color: rgb(241, 70, 114);
+      font-size: 1.2rem;
+      display: flex;
+      justify-content: center;
+      
+     }
+     
+     
+ 
+
+   .img-productos
+   {
+       width: 250px;
+       transition: heigth 2s,width 2s;
+   }
+   .img-productos:hover{
+       width: 300px
+       ;
+   }
+   span{
+   height: auto;
+   width: auto;
+   display: flex;
+   flex-direction: column;
+   
+
+   }
+    .btn-comprar{
+    width: 100%;
+    border: color 2px solid ;
+    border-color:rgb(241, 70, 114);
+    border-radius: 0-3;
+    cursor: pointer;
+    padding: 0.4rem;
+    font-weight: 700;
+    font-size: 1rem;
+background-color: rgb(15, 6, 151);
+    margin: 20PX;
+    color: white;
+ 
+
+    }
+
+    .btn-comprar:hover{
+        background-color: rgb(241, 70, 114);
+    }
+   /* ----------------------------------footer---------------------------------*/
+footer{
+    background-color: rgb(15, 6, 151);
+    color: white;
+  
+}
+
+/*----------------------section informacion corporativa--------------------------------*/
+.footer-bloque{
+padding: 1rem;
+display: flex;
+flex-wrap: row wrap;
+justify-content: space-between;
+
+}
+.titulo-corporativa{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.footer-corporativa{
+    text-align: center;
+   
+ }
+
+.Acerca-empresa{
+    font-size: 1rem;
+    padding: 0.2rem;
+    
+}
+
+.icon-redes li{
+    display: inline-block;
+    padding: 1rem;
+}
+.incon-face{
+text-decoration: none;
+ }
+
+ .icon-insta{
+     text-decoration: none;
+     list-style: none;
+    }
+/*----------------------section informacion enlaces--------------------------------*/
+
+.titulo-enlace{
+    padding: 1rem;
+    font-size: 1.5rem;
+ }
+
+ .footer-navbar--enlaces a{
+     text-decoration: none;
+ font-size: 1rem;
+ display: block;
+ padding: 0.2rem;
+ color: white;
+
+  }
+
+  .footer-navbar--enlaces{ 
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+  }
+
+/*----------------------contactenos--------------------------------*/
+
+.titulo-contactenos{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    
+}
+
+.numero-tel{
+    
+    font-size: 1rem;
+    text-align: center;
+  
+}
+
+
+.footer-creditos{
+    color: white;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+
+/*--------------------------------pagina de contacto ------------------------------*/
+.formulario{
+    background-color: rgba(93, 37, 156, 0.021);
+    color: rgb(15, 6, 151);
+}
+
+input {display:block;}
+/*  --------------------------------------HEADER-------- */
+.header-banner--logo{
+    width: 200px; 
+    height: auto;
+
+}
+
+
+.header-banner--buscadorprincipal{
+    padding: 2rem;
+    margin: 2rem;
+    width: 100%;
+    
+   
+}
+
+.header__navbar--principal {
+    text-decoration: none;
+padding: 16px;
+list-style: none;
+}
+nav{
+    background-color: rgb(15, 6, 151);
+}
+.header__navbar--principal li{
+  display: inline-block;
+
+ 
+}
+
+.header__navbar--principal a{
+   text-decoration: none;
+   text-transform: uppercase;
+   text-align: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1rem;
+color:rgb(250, 250, 244);
+padding: 1.1rem;
+
+  }
+/*  --------------------------------------SECCION CONTACTO-------- */
+
+.contacto{
+  padding: 2rem; 
+ color: rgb(15, 6, 151);
+ height: 50vh;
+width: 100vw;
+   
+}
+
+.contacto-form{
+padding: 2rem;
+background-color:white;
+margin: auto;
+
+}
+contacto-form__fielset{
+    padding: 1rem;
+   
+
+}
+.form-contacto{
+padding: 1rem;
+    font-size: 1rem;
+}
+.contenedor-info{
+font-size: 1rem;
+padding: 1rem;
+display: flex;
+flex-direction: column;
+
+
+}
+.contenedor-info input{
+    border: 0.1rem solid rgb(15, 6, 151) ;
+height: 2rem;
+width: 30rem;
+color: rgb(15, 6, 151);
+padding: 1rem;
+}
+.contenedor-ciudad option{
+    color: rgb(15, 6, 151) ;
+
+}
+.contenedor-ciudad select{
+    color: rgb(15, 6, 151) ;
+
+}
+
+
+
+.contacto.form__input, textarea{
+
+    margin-bottom: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem;
+    color: rgb(241, 70, 114);
+    font-size: 1rem;
+    width: 100%;
+    color: rgb(15, 6, 151);
+    border: 0.5rem solid rgb(15, 6, 151) ;
+    border-radius: 10px;
+}
+.botones-contacto{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+ 
+
+}
+.btn-enviar {
+    width: 200px;
+    border: color 2px solid ;
+    border-color:rgb(241, 70, 114);
+    border-radius: 0-3;
+    cursor: pointer;
+    padding: 0.4rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color:white;
+    background-color:rgb(15, 6, 151) ;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.btn-limpiar {
+    width: 200px;
+    border: color 2px solid ;
+    border-color:rgb(241, 70, 114);
+    border-radius: 0-3;
+    cursor: pointer;
+    padding: 0.4rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color:white ;
+    background-color:rgb(15, 6, 151) ;
+    display: flex;
+justify-content: center;
+}
+
+.btn-enviar:hover{
+    background-color: rgb(241, 70, 114);
+}
+.btn-limpiar:hover{
+    background-color: rgb(241, 70, 114);
+}
+
+/*-----------------------------------Pagina de Blog-------------------------------------*/
+.bloque-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 50px;
+justify-items: center; 
+
+}
