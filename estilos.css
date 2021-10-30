@@ -80,7 +80,7 @@ color:rgb(250, 250, 244);
 
     /*  --------------------------------------CONTENIDO---------------------------------- */
 
-    .main-div--imgprincipal{
+    /* .main-div--imgprincipal{
     background-image: url(Img/Main.jpg);
     background-color: rgb(15, 6, 151);
     background-repeat: no-repeat;
@@ -90,6 +90,8 @@ color:rgb(250, 250, 244);
     width: 100vw;
     margin: 0.2rem;
     }
+
+    */
 
     .main-h2--titulo{
         font-size: 1rem;
@@ -404,11 +406,13 @@ justify-content: center;
     background-color: rgb(241, 70, 114);
 }
 
-/*-----------------------------------Pagina de Blog-------------------------------------*/
+/*-----------------------------------Pagina de Blog-------------------------------------
 .bloque-blog{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 grid-column-gap: 50px;
 justify-items: center; 
 
-}
+
+
+}*/
